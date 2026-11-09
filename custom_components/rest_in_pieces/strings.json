@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "New Rest In Pieces endpoint",
+        "description": "Pick a name and the entities to expose. A secret URL token is generated automatically — anyone who knows the URL can read these values.",
+        "data": {
+          "name": "Name",
+          "entities": "Entities"
+        }
+      }
+    },
+    "error": {
+      "name_required": "Give this endpoint a name.",
+      "entities_required": "Pick at least one entity."
+    },
+    "abort": {
+      "already_configured": "That endpoint token is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Edit endpoint",
+        "description": "Public URL:\n{url}\n\nPath: `{path}`\n\nAnyone with this URL can read the selected entity states. The token does not change when you edit the name or entities.",
+        "data": {
+          "name": "Name",
+          "entities": "Entities"
+        }
+      }
+    },
+    "error": {
+      "name_required": "Give this endpoint a name.",
+      "entities_required": "Pick at least one entity."
+    }
+  }
+}

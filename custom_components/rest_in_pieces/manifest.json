@@ -1,0 +1,13 @@
+{
+  "domain": "rest_in_pieces",
+  "name": "Rest In Pieces",
+  "codeowners": ["@ppicazo"],
+  "config_flow": true,
+  "documentation": "https://github.com/ppicazo/ha_rest_in_pieces",
+  "issue_tracker": "https://github.com/ppicazo/ha_rest_in_pieces/issues",
+  "dependencies": ["http"],
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}
